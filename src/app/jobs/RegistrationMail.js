@@ -15,10 +15,10 @@ export default {
     const { user } = data;
 
     await Mail.sendMail({
-      from: 'DIO <contato@dio.com.br>',
+      from: 'DIO <contato.sdexpressbrasil@gmail.com>',
       to: `${user.name} <${user.email}>`,
       subject: 'Cadastro de usuário',
-      html: `Olá, ${user.name}, bem-vindo a DIO.`
+      html: `Olá, ${user.name}, bem-vindo a PSP.`
     });
   },
 };
